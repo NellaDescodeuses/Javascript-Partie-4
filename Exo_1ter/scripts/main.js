@@ -1,5 +1,7 @@
+//je crée un table (une liste).
+let array = ['HTML','Javascript','CSS','Bootstrap'];
 function show() {
-  let array = ['HTML','Javascript','CSS','Bootstrap'];
-  alert (array);
-  document.getElementById('html').innerHTML = array;
+  //le ".sort()" affiche par ordre alphabétique
+  alert (array.sort());
+  document.getElementById('html').innerHTML = array.sort();
 }
