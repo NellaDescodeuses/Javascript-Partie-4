@@ -10,3 +10,8 @@ function add() {
   //le résultat sera églament affiché sur mon HTML.
   document.getElementById('html').innerHTML = name;
 }
+// cette fonction permet de voir l'élément ajouté
+function show(){
+  var show = document.getElementById('input').innerHTML = name;
+  alert(name)
+}
